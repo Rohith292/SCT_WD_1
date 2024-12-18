@@ -38,27 +38,24 @@ JavaScript: Adds scroll-based interactivity by dynamically changing the navbar's
 
 Setup
 Clone the repository:
-bash
 
-Copy code
-git clone https://github.com/Rohith292/interactive-navigation-menu.git  
-Open the index.html file in your browser.
+git clone https://github.com/Rohith292/SCT_WD_1.git  
+
+Open the slider.html file in your browser.
 
 Code Explanation
+
 HTML
 Contains a <nav> element for the navigation bar and <section> elements for content.
 CSS
+
 Styles the layout, hover effects, and section designs.
 Adds smooth transitions for hover and scroll effects.
+
 JavaScript
 Listens to the scroll event to update the navbar background color dynamically.
 Demo
 Check out how the navigation bar changes as you scroll through the sections!
-
-Screenshots
-Initial View
-
-Scrolled View
 
 License
 This project is licensed under the MIT License.
