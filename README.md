@@ -41,7 +41,7 @@ Clone the repository:
 bash
 
 Copy code
-git clone https://github.com/your-username/interactive-navigation-menu.git  
+git clone https://github.com/Rohith292/interactive-navigation-menu.git  
 Open the index.html file in your browser.
 
 Code Explanation
