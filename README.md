@@ -1,24 +1,41 @@
 Interactive Navigation Menu
+
 An interactive, responsive, and stylish navigation menu created using HTML, CSS, and JavaScript. This project demonstrates a dynamic navbar that changes its background color when scrolling, with smooth transitions and hover effects for an enhanced user experience.
 
 Features
+
 Fixed Navigation Bar: Stays at the top of the page as you scroll.
+
 Dynamic Background Color: Changes the navbar background color when the user scrolls.
+
 Hover Effects: Links change color and background on hover.
+
 Responsive Design: Adapts to various screen sizes.
+
 Smooth Navigation: Quickly scrolls to the respective section when a menu item is clicked.
+
 Sections
+
 The webpage consists of the following sections:
+
 Home
+
 About
+
 Services
+
 Contact
+
 Each section is styled with different background colors for easy distinction.
 
 How It Works
+
 HTML: Structures the navigation bar and the sections of the webpage.
+
 CSS: Styles the navbar, sections, and hover effects with a clean and modern look.
+
 JavaScript: Adds scroll-based interactivity by dynamically changing the navbar's background color.
+
 Setup
 Clone the repository:
 bash
