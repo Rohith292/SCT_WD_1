@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Navigation Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    #navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      transition: background-color 0.3s;
+      z-index: 1000;
+    }
+
+    #navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    #navbar ul li {
+      padding: 14px 20px;
+    }
+
+    #navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s, background-color 0.3s;
+    }
+
+    #navbar ul li a:hover {
+      background-color: #575757;
+      color: #00ffab;
+    }
+
+    .content {
+      margin-top: 60px;
+    }
+
+    .content section {
+      padding: 100px;
+      height: 100vh;
+    }
+
+    #home {
+      background-color: #f4f4f4;
+    }
+
+    #about {
+      background-color: #ddd;
+    }
+
+    #services {
+      background-color: #bbb;
+    }
+
+    #contact {
+      background-color: #999;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <section id="home"><h1>Home Section</h1></section>
+    <section id="about"><h1>About Section</h1></section>
+    <section id="services"><h1>Services Section</h1></section>
+    <section id="contact"><h1>Contact Section</h1></section>
+  </div>
+  <script>
+    window.addEventListener('scroll', function() {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 10) {
+        navbar.style.backgroundColor = 'blue';
+      } else {
+        navbar.style.backgroundColor = 'red';
+      }
+    });
+  </script>
+</body>
+</html>
